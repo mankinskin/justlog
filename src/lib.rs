@@ -1,7 +1,6 @@
-
 pub mod logger;
-mod shared;
 pub mod reexports;
+mod shared;
 
 pub use logger::justlog;
 pub use reexports::*;

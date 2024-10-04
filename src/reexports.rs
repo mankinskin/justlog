@@ -1,4 +1,1 @@
-pub use {
-    tracing,
-    function_name,
-};
+pub use {function_name, tracing};
