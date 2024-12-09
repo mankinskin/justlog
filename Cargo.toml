@@ -17,9 +17,9 @@ lazy_static = "^1.4"
 
 tracing-appender = "0.2.1"
 tracing-test = "^0.2.5"
-tracing = { version = "^0.1", features = ["attributes", "valuable"] }
-tracing-subscriber = { version = "^0.3", features = ["json"] }
+tracing = { version = "^0.1.41", features = ["attributes", "valuable"] }
+tracing-subscriber = { version = "0.3.19", features = ["json"] }
 #tracing-egui = { path = "../../tracing-egui" } #version = "^0.1" }
-console-subscriber = "0.2.0"
+console-subscriber = "0.4"
 tracing-mutex = "0.3"
 function_name = "^0.3"
